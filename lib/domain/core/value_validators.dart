@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart';
+
 import 'failures.dart';
 
 /// Validates email [input] with reg. exp.
