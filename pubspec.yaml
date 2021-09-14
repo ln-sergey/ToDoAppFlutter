@@ -10,6 +10,7 @@ dependencies:
   dartz: ^0.10.0
   flutter:
     sdk: flutter
+  flutter_bloc: ^7.2.0
   freezed_annotation: ^0.14.3
 
 dev_dependencies:
