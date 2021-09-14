@@ -7,6 +7,8 @@ import 'failures.dart';
 abstract class ValueObject<T> {
   Either<ValueFailure<T>, T> get value;
 
+  bool isValid() => value.isRight();
+
   @override
   bool operator == (Object other) {
     if (identical(this, other)) return true;
