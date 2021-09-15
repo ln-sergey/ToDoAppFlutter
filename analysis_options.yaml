@@ -1,0 +1,14 @@
+include: package:lint/analysis_options.yaml
+
+linter:
+  rules:
+    depend_on_referenced_packages: false
+    directives_ordering: false
+    require_trailing_commas: false
+    eol_at_end_of_file: false
+
+analyzer:
+  errors:
+    missing_required_param: error
+    missing_return: error
+    must_be_immutable: error
