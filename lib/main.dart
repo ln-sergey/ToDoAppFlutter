@@ -11,5 +11,4 @@ void main() async {
   await Firebase.initializeApp();
   configureDependencies();
   runApp(AppWidget());
-  print(DI_ENV);
 }
